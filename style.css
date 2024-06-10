@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navBar {
+    position: fixed;
+    height: 127px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #6f6af7;
+    
+}
+
+h1 {
+    padding-top: 27px;
+    padding-left: 44px;
+    font-size: 61.43px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+#navigationButton {
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+#navBar span {
+    position: relative;
+    left: 200px;
+    margin-left: 45px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+
+select {
+    background-color: #6f6af7;
+    position: fixed;
+    border: 0px;
+    top: 65px;
+    right: 490px;
+    color: #FFFFFF;
+}
+#searchBar {
+    width: 200px;
+    height: 46px;
+    top: 40px;
+    right: 200px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 63px;
+    position: fixed;
+}
+ 
+p {
+
+    color: #9F9F9F;
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 5px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+#searchIcon {
+    background-color: #FFFFFF;
+    border: 0px;
+    color: #9F9F9F;
+    position: fixed;
+    right: 215px;
+    top: 50px;
+    font-size: 20px;
+    
+}
+.lines {
+    width: 67px;
+height: 46.61px;
+top: 39px;
+right: 35px;
+position: fixed;
+}
+
+#mainBody {
+    width: 100%;
+    position: absolute;
+    top: 127px;
+}
+.picture {
+    width: 400px;
+    height: 456px;
+    margin-left: 135px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 4px 7px 32px 0px #00000070;
+}
+.txtBox {
+    width: 800px;
+    height: 456px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background: #E5D8FF;
+    border: 0px solid #FFFFFF
+}
+.social {
+    width: 60px;
+    height: 20px;
+    top: 173px;
+    right: 50px;
+    display: inline-block;
+    position:absolute;
+}
+
+#statBox {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1 {
+    width: 310px;
+height: 135px;
+border-radius: 11px;
+background: #929DFF;
+box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+
+#box2 {
+    width: 310px;
+height: 135px;
+border-radius: 11px;
+background: #734CF2;
+box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+#box3 {
+    width: 310px;
+height: 135px;
+border-radius: 11px;
+background: #D288FF;
+box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+#box4 {
+    width: 310px;
+height: 135px;
+border-radius: 11px;
+background: #000000;
+box-shadow: 0px 9px 31px 0px #00000066;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 25px;
+font-size: 27px;
+letter-spacing: 0.04em;
+text-align: left;
+
+    color: #FFFFFF;
+}
+
+#details {
+height: 716px;
+margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+border-radius: 21px;
+opacity: 0px;
+background: #483EFF;
+display: flex;
+justify-content: space-around;
+
+}
+
+#column1 {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#info {
+    width: 370px;
+    height: 132px;
+    border-radius: 22px;
+    background: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+}
+#bookmark {
+    width: 370px;
+    height: 132px;
+    border-radius: 22px;
+    border: 5px 0px 0px 0px;
+    opacity: 0px;
+    border: 5px solid #FFFFFF
+}
+#setting {
+    width: 370px;
+height: 132px;
+border-radius: 22px;
+opacity: 0px;
+    
+    border: 5px solid #FFFFFF
+
+}
+#column1 h2 {
+    text-align: center;
+    margin-top: 54px;
+}
+
+#column2 {
+    width: 1100px;
+height: 656px;
+margin-top: 25px;
+margin-left: 35px;
+margin-right: 25px;
+border-radius: 19px;
+opacity: 0px;
+background: #FFFFFF;
+
+}
+
+#column2 h2{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 30px;
+    color:#04285A;
+}
+sans {
+    margin-left: 60px;
+    color:#04285A;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.13px;
+letter-spacing: 0.05em;
+text-align: left;
+
+}
+
+#chat {
+    width: 120px;
+height: 120px;
+top: 580px;
+right: 55px;
+position: fixed;
+}
